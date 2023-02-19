@@ -18,8 +18,7 @@ public class CalculatorController {
      @PostMapping("/ai/calculation2")
       public CalculatorResponse calculatorResponse(@RequestBody Calculator calculator){
 
-        calculatorService.calculatorResponse(calculator);
-return calculatorService.calculatorResponse(calculator);
+      return calculatorService.calculatorResponse(calculator);
        }
 
 
